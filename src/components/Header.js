@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <nav>
-        <img src={Menu}></img>
-        
+        <img src={Menu} alt="burger-menu"/>
+
       </nav>
     </div>
   );
