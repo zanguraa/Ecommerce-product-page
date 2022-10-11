@@ -5,17 +5,21 @@ import AddCart from "./AddCart";
 
 function Description() {
   return (
-    <div className="p-6 w-full max-w-[445px]">
-      <h4 className="font-bold text-[#FF7E1B]">SNEAKER COMPANY</h4>
-      <h2 className="font-bold text-3xl">Fall Limited Edition Sneakers</h2>
+    <div className=" flex flex-col gap-8 p-6 md:p-0 md:pt-16 w-full max-w-[450px] ">
+      <h4 className="font-bold text-[#FF7E1B] lg:pb-7 ">SNEAKER COMPANY</h4>
+      <h2 className="font-bold text-3xl lg:text-5xl">
+        Fall Limited Edition Sneakers
+      </h2>
       <span className=" text-[#69707D] text-sm">
         These low-profile sneakers are your perfect casual wear companion.
         Featuring a durable rubber outer sole, they’ll withstand everything the
         weather can offer.
       </span>
       <Price />
-      <ItemCount />
-      <AddCart />
+      <div className="flex flex-col md:flex-row gap-3 items-center">
+        <ItemCount />
+        <AddCart />
+      </div>
     </div>
   );
 }
