@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/Ecommerce-product-page/static/css/main.78bbb68a.css",
-    "main.js": "/Ecommerce-product-page/static/js/main.03d74e4e.js",
+    "main.css": "/Ecommerce-product-page/static/css/main.b537f6d2.css",
+    "main.js": "/Ecommerce-product-page/static/js/main.f6514c54.js",
+    "static/media/image-product-1.jpg": "/Ecommerce-product-page/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
     "static/media/logo.svg": "/Ecommerce-product-page/static/media/logo.4fe9c1e86cf9bf600f0c239f6a6e5317.svg",
+    "static/media/icon-cart-white.svg": "/Ecommerce-product-page/static/media/icon-cart-white.e1438c4352a7c6e27fc2647578c4466e.svg",
     "static/media/icon-cart.svg": "/Ecommerce-product-page/static/media/icon-cart.539ec608f50e707c94d583ec11acf99d.svg",
     "index.html": "/Ecommerce-product-page/index.html",
+    "static/media/icon-plus.svg": "/Ecommerce-product-page/static/media/icon-plus.b297868c5f938612f4f099f9f9d73aea.svg",
+    "static/media/icon-minus.svg": "/Ecommerce-product-page/static/media/icon-minus.f5073aa8273785ecf6b7811630782736.svg",
     "static/media/icon-menu.svg": "/Ecommerce-product-page/static/media/icon-menu.c6107d03f1edcf73523ebd8cbc50a443.svg",
-    "main.78bbb68a.css.map": "/Ecommerce-product-page/static/css/main.78bbb68a.css.map",
-    "main.03d74e4e.js.map": "/Ecommerce-product-page/static/js/main.03d74e4e.js.map"
+    "static/media/icon-previous.svg": "/Ecommerce-product-page/static/media/icon-previous.80616402c611cc0a6651d0b751da8a9b.svg",
+    "static/media/icon-next.svg": "/Ecommerce-product-page/static/media/icon-next.9621183a551a9985b4bd7536c9a69c66.svg",
+    "main.b537f6d2.css.map": "/Ecommerce-product-page/static/css/main.b537f6d2.css.map",
+    "main.f6514c54.js.map": "/Ecommerce-product-page/static/js/main.f6514c54.js.map"
   },
   "entrypoints": [
-    "static/css/main.78bbb68a.css",
-    "static/js/main.03d74e4e.js"
+    "static/css/main.b537f6d2.css",
+    "static/js/main.f6514c54.js"
   ]
 }
