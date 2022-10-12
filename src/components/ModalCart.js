@@ -2,7 +2,7 @@ import React from 'react'
 
 function ModalCart() {
   return (
-    <div className=' w-[360px] z-10 bg-white absolute left-2 top-20 h-[256px] rounded-[10px] shadow-2xl shadow-slate-400'>
+    <div className=' w-[360px] z-10 bg-white absolute right-[2%] lg:right-[7%] top-20  h-[256px] rounded-[10px] shadow-2xl shadow-slate-400'>
    
         <h2 className='font-bold text-base pt-6 pl-6'>
             Cart

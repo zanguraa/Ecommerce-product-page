@@ -5,7 +5,7 @@ import AddCart from "./AddCart";
 
 function Description() {
   return (
-    <div className=" flex flex-col gap-8 p-6 md:p-0 md:pt-16 w-full max-w-[450px] ">
+    <div className=" flex flex-col md:gap-12 gap-8 p-6 md:p-0 md:pt-14 w-full max-w-[450px] ">
       <h4 className="font-bold text-[#FF7E1B] lg:pb-7 ">SNEAKER COMPANY</h4>
       <h2 className="font-bold text-3xl lg:text-5xl">
         Fall Limited Edition Sneakers
