@@ -3,7 +3,7 @@ import Price from "./Price";
 import ItemCount from "./ItemCount";
 import AddCart from "./AddCart";
 
-function Description() {
+function Description({count, setQuantity, plusHandler, minusHandler}) {
   return (
     <div className=" flex flex-col md:gap-12 gap-8 p-6 md:p-0 md:pt-14 w-full max-w-[450px] ">
       <h4 className="font-bold text-[#FF7E1B] lg:pb-7 ">SNEAKER COMPANY</h4>
@@ -17,8 +17,8 @@ function Description() {
       </span>
       <Price />
       <div className="flex flex-col md:flex-row gap-3 items-center">
-        <ItemCount />
-        <AddCart />
+        <ItemCount count={count} plusHandler={plusHandler} minusHandler={minusHandler}/>
+        <AddCart count={count} setQuantity={setQuantity}/>
       </div>
     </div>
   );

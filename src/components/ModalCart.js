@@ -1,6 +1,11 @@
 import React from 'react'
+import CartItem from './CartItem'
 
-function ModalCart() {
+function ModalCart(props) {
+
+
+
+
   return (
     <div className=' w-[360px] z-10 bg-white absolute right-[2%] lg:right-[7%] top-20  h-[256px] rounded-[10px] shadow-2xl shadow-slate-400'>
    
@@ -9,7 +14,7 @@ function ModalCart() {
         </h2>
    <hr className='mt-[27px] border-[#E4E9F2]' />
     <div className='flex h-[180px] items-center justify-center'>
-    <p className='font-bold text-base text-[#69707D]'>Your cart is empty.</p>
+   { props.item.quantity ?  <CartItem item={props.item} /> :  <p className='font-bold text-base text-[#69707D]'>Your cart is empty.</p>}
     </div>
     
     </div>
