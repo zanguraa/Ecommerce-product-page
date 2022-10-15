@@ -34,14 +34,16 @@ function Header(props) {
         </div>
 
         <div className="flex items-center gap-6 justify-between">
-          <img 
-          
+        <div className="relative ">
+        <img 
             onClick={(e) => {
               props.modalHandler();
             }}
             src={Basket}
             alt="cart"
           />
+        </div>
+          
           <img
             className=" h-6 hover:border-4 border-solid border-orange-600 rounded-[50%] md:h-14"
             src={Profile}
