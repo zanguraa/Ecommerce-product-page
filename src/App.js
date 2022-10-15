@@ -56,6 +56,7 @@ function App() {
     <div className=" flex flex-col gap-6 max-w-[1110px] mx-auto pt-7">
     {slider && <SliderModal openImgHandler={openImgHandler} />}
       <Header
+      item={item}
         burger={burger}
         modalHandler={modalHandler}
         setBurger={setBurger}

@@ -34,16 +34,29 @@ function Header(props) {
         </div>
 
         <div className="flex items-center gap-6 justify-between">
-        <div className="relative ">
-        <img 
-            onClick={(e) => {
-              props.modalHandler();
-            }}
-            src={Basket}
-            alt="cart"
-          />
-        </div>
-          
+          <div className="relative ">
+            <img
+            className="cursor-pointer"
+              onClick={(e) => {
+                props.modalHandler();
+              }}
+              src={Basket}
+              alt="cart"
+            />
+            {props.item.quantity > 0 ? (
+              <div
+                onClick={(e) => {
+                  props.modalHandler();
+                }}
+                className=" cursor-pointer absolute w-5 h-4 top-[-10px] left-1 text-[10px] text-white flex items-end justify-center bg-orange-400 rounded-[50%]"
+              >
+                {props.item.quantity}
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
+
           <img
             className=" h-6 hover:border-4 border-solid border-orange-600 rounded-[50%] md:h-14"
             src={Profile}
