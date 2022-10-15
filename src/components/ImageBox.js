@@ -11,19 +11,21 @@ import productFull3 from "../images/image-product-3.jpg";
 import productFull4 from "../images/image-product-4.jpg";
 
 
-function ImageBox() {
+function ImageBox({openImgHandler}) {
   let imageArray = [product1, product2, product3, product4];
   let imageFullArray = [productFull1, productFull2, productFull3, productFull4];
-
-
   const [selectedImg, setSelectedImg] = useState(0)
+  
+
+ 
+
 
   return (
     <div className=" relative w-full max-w-[445px] flex flex-col gap-8">
       <div className=" h-10 w-10 flex items-center lg:hidden justify-center rounded-[50%] bg-white absolute left-4 top-1/2">
         <img className=" w-[10px] h-[13px] " src={leftArrow} alt="left-arrow" />
       </div>
-      <img className=" md:rounded-2xl" src={imageFullArray[selectedImg]} alt="sneakers-full" />
+      <img onClick={openImgHandler} className="cursor-pointer  md:rounded-2xl" src={imageFullArray[selectedImg]} alt="sneakers-full" />
       <div className=" h-10 w-10 flex lg:hidden items-center justify-center rounded-[50%] bg-white absolute right-4 top-1/2 ">
         <img
           className="w-[10px] h-[13px] "
@@ -44,6 +46,7 @@ function ImageBox() {
   } 
         
       </div>
+      
     </div>
   );
 }
