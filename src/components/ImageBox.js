@@ -9,7 +9,7 @@ import productFull1 from "../images/image-product-1.jpg";
 import productFull2 from "../images/image-product-2.jpg";
 import productFull3 from "../images/image-product-3.jpg";
 import productFull4 from "../images/image-product-4.jpg";
-import SliderModal from "./SliderModal";
+
 
 function ImageBox({ openImgHandler }) {
   let imageArray = [product1, product2, product3, product4];

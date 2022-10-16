@@ -52,7 +52,7 @@ function App() {
   };
 
   return (
-    <div className=" flex flex-col gap-6 max-w-[1110px] mx-auto pt-7">
+    <div className=" flex flex-col gap-6 max-w-[1110px] h-[100vh] mx-auto pt-7">
     {slider && <SliderModal openImgHandler={openImgHandler} />}
       <Header
       item={item}

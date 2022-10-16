@@ -7,7 +7,7 @@ function SliderModal({ openImgHandler }) {
   
 
   return (
-    <div className="hidden lg:flex absolute  items-center justify-center left-[-40px] top-[-40px] z-20 h-full w-full  bg-black bg-opacity-75 ">
+    <div className="hidden lg:flex absolute  items-center justify-center left-0 top-0 z-20 h-full w-full  bg-black bg-opacity-75 ">
       <div className="relative ">
         <ImageBox />
         <img
