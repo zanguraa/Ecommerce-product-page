@@ -35,8 +35,6 @@ function App() {
     }
   };
 
-  
-
   const item = {
     title: "Fall Limited Edition Sneakers",
     image: ImgOfItem,

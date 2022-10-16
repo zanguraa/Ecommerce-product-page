@@ -9,6 +9,7 @@ import productFull1 from "../images/image-product-1.jpg";
 import productFull2 from "../images/image-product-2.jpg";
 import productFull3 from "../images/image-product-3.jpg";
 import productFull4 from "../images/image-product-4.jpg";
+import SliderModal from "./SliderModal";
 
 function ImageBox({ openImgHandler }) {
   let imageArray = [product1, product2, product3, product4];
@@ -35,7 +36,7 @@ function ImageBox({ openImgHandler }) {
     <div className=" relative w-full max-w-[445px] flex flex-col gap-8">
       <div
         onClick={PrevImgHandler}
-        className=" h-10 w-10 flex items-center lg:hidden justify-center rounded-[50%] bg-white absolute left-4 top-1/2"
+        className=" h-10 w-10 flex items-center  justify-center rounded-[50%] bg-white absolute left-1 top-[40%]"
       >
         <img className=" w-[10px] h-[13px] " src={leftArrow} alt="left-arrow" />
       </div>
@@ -47,7 +48,7 @@ function ImageBox({ openImgHandler }) {
       />
       <div
         onClick={NextImgHandler}
-        className=" h-10 w-10 flex lg:hidden items-center justify-center rounded-[50%] bg-white absolute right-4 top-1/2 "
+        className=" h-10 w-10 flex  items-center justify-center rounded-[50%] bg-white absolute right-1 top-[40%] "
       >
         <img
           className="w-[10px] h-[13px] "
